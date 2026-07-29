@@ -1,0 +1,14 @@
+import DistributionsUltradistributionsBoundaryValuesAnalyticFoundationCanonicalLaneLean.FourierBrosIagolnitzerTransformLayer
+
+namespace HautevilleHouse
+namespace DistributionsUltradistributionsBoundaryValuesAnalyticFoundationCanonicalLaneLean
+
+def ConstrainedDistributionsUltradistributionsClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_distributions_ultradistributions_closure (A : AdmissibleClass) :
+    ConstrainedDistributionsUltradistributionsClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end DistributionsUltradistributionsBoundaryValuesAnalyticFoundationCanonicalLaneLean
+end HautevilleHouse
